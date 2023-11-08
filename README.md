@@ -30,8 +30,3 @@ You can install these libraries using pip:
 
 ```bash
 pip install torch torchvision matplotlib
-`\```bash
-
-
-
-
