@@ -12,8 +12,6 @@ MNIST dataset is monochromatic, featuring a sole color channel, in contrast to t
 
 General site for the MNIST database: http://yann.lecun.com/exdb/mnist
 
-Numerous renowned machine learning algorithms have been applied to the MNIST dataset, making it straightforward to evaluate the relative performance of a new algorithm. In December 2011, the website http://yann.lecun.com/exdb/mnist/ was updated to provide a comprehensive list of major classification techniques and their corresponding results achieved using the MNIST dataset. In most of these experiments, the classifiers were trained using the existing data from the MNIST database, as indicated by "none" in the "Preprocessing" column on the website. In some instances, the training set was enhanced by incorporating artificially altered versions of the original training samples. These alterations involved random combinations of jittering, shifts, scaling, deskewing, deslanting, blurring, and compression. The specific types of these and other modifications are specified in the "Preprocessing" column of the table.
-
 Below is a sample of MNIST Dataset. 
 
 ![MNIST_Sample](https://github.com/pushparajanrahul/SimpleCNN/assets/124497777/0e379fa2-dae6-43e6-8bb8-00fc29a7e99b)
