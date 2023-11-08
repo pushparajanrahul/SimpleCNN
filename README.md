@@ -35,6 +35,7 @@ pip install torch torchvision matplotlib
 # Dataset and Dataloaders
 The MNIST dataset is automatically downloaded and utilized for training and testing. The dataset details are as follows:
 
+```css
 Training Dataset:
 Number of datapoints: 60,000
 Root location: data
@@ -45,6 +46,7 @@ Number of datapoints: 10,000
 Root location: data
 Split: Test
 Data Transformation: ToTensor()
+```
 
 
 # Code Structure
