@@ -34,7 +34,7 @@ pip install torch torchvision matplotlib
 
 # Code Structure
 
-#2 1. CNN Class
+## 1. CNN Class
 The CNN class defines the architecture of the Convolutional Neural Network. It consists of two convolutional layers followed by max-pooling and a fully connected layer. The network is designed to classify the input images into one of the ten possible digits (0-9).
 
 2. train Function
