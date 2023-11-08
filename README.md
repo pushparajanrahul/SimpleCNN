@@ -32,6 +32,20 @@ You can install these libraries using pip:
 pip install torch torchvision matplotlib
 ```
 
+# Dataset and Dataloaders
+The MNIST dataset is automatically downloaded and utilized for training and testing. The dataset details are as follows:
+
+Training Dataset:
+Number of datapoints: 60,000
+Root location: data
+Split: Train
+Data Transformation: ToTensor()
+Testing Dataset:
+Number of datapoints: 10,000
+Root location: data
+Split: Test
+Data Transformation: ToTensor()
+
 # Code Structure
 
 ## 1. CNN Class
@@ -70,3 +84,11 @@ To run the code, execute the main section of the script. You can specify the num
 
 # Training the Model
 You can adjust the hyperparameters like learning rate, batch size, and network architecture in the CNN class or during the initialization of the optimizer. Feel free to experiment with different settings to improve the model's performance.
+
+The model is trained over 10 epochs with a total training time of approximately 47.9 seconds. During training, the model achieves a high accuracy on the test data. The training progress is displayed with epoch and batch-wise loss.
+
+# Testing the model
+The model is evaluated on the test data, and it achieves a test accuracy of 99%.
+
+# Sample Prediction
+To validate the model's performance, 10 sample predictions are compared to their actual labels. The predictions closely match the actual digits, demonstrating the model's effectiveness in classifying handwritten digits.
