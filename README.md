@@ -1,5 +1,5 @@
 # SimpleCNN
-This repository contains a simple CNN model, trained on MNIST Dataset, and this excercie is actively done by a lot of DL enthusiasts/begineers and is even considered as an indroductory excercise for Image processing courses. I am lending the same concept but I will try to comprehend the example with step by step guidance on how to build the program for your better understanding. 
+This repository contains a simple CNN model, trained on MNIST Dataset, and this excercie is actively done by a lot of DL enthusiasts/begineers and is even considered as an indroductory excercise for Image processing courses. I am lending the same concept but I will try to comprehend the example with step by step guidance on how to build the algorithm i.e., the Simple CNN architecture and utilize it for training a Dataset (MNIST Dataset in this case). 
 
 # Lets Talk about Dataset - The MNIST Dataset
 The MNIST dataset primarily consist of about 70,000 handwritten numeric images and their respective labels marked to it. Out of the total, 60,000 images are that of training images and 10,000 are test images, 
