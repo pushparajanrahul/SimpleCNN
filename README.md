@@ -30,3 +30,24 @@ You can install these libraries using pip:
 
 ```bash
 pip install torch torchvision matplotlib
+```
+
+# Code Structure
+
+#2 1. CNN Class
+The CNN class defines the architecture of the Convolutional Neural Network. It consists of two convolutional layers followed by max-pooling and a fully connected layer. The network is designed to classify the input images into one of the ten possible digits (0-9).
+
+2. train Function
+The train function is responsible for training the CNN model. It takes the number of training epochs, the model, and the data loaders as input. During training, the function iterates through the training data, calculates the loss, and updates the model's weights. It prints the training progress, including the current epoch and batch loss.
+
+3. test Function
+The test function evaluates the trained model on the test data. It calculates the accuracy of the model on the test set and prints the test accuracy.
+
+4. Main Program
+The main program sets up the data loaders, initializes the model, loss function, and optimizer, and then trains the model for a specified number of epochs. After training, it evaluates the model on the test data and prints the predicted labels for a sample of test images.
+
+Usage
+To run the code, execute the main section of the script. You can specify the number of training epochs by changing the num_epochs variable. The code will automatically download the MNIST dataset and display some sample images. After training, it will print the test accuracy and some example predictions.
+
+Training the Model
+You can adjust the hyperparameters like learning rate, batch size, and network architecture in the CNN class or during the initialization of the optimizer. Feel free to experiment with different settings to improve the model's performance.
