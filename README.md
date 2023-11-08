@@ -37,10 +37,29 @@ pip install torch torchvision matplotlib
 ## 1. CNN Class
 The CNN class defines the architecture of the Convolutional Neural Network. It consists of two convolutional layers followed by max-pooling and a fully connected layer. The network is designed to classify the input images into one of the ten possible digits (0-9).
 
-## 2. train Function
+The CNN architecture defined in the code is as follows:
+
+```css
+CNN(
+  (conv1): Sequential(
+    (0): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (conv2): Sequential(
+    (0): Conv2d(16, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (out): Linear(in_features=1568, out_features=10, bias=True)
+)
+```
+
+
+## 2. Train Function
 The train function is responsible for training the CNN model. It takes the number of training epochs, the model, and the data loaders as input. During training, the function iterates through the training data, calculates the loss, and updates the model's weights. It prints the training progress, including the current epoch and batch loss.
 
-## 3. test Function
+## 3. Test Function
 The test function evaluates the trained model on the test data. It calculates the accuracy of the model on the test set and prints the test accuracy.
 
 ## 4. Main Program
