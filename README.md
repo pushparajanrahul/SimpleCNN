@@ -1,5 +1,5 @@
 # SimpleCNN
-This repository contains a simple CNN model, trained on MNIST Dataset, and this excercie is actively done by a lot of DL enthusiasts/begineers and is even considered as an indroductory excercise for Image processing courses. I am lending the same concept but I will try to comprehend the example with step by step guidance on how to build the algorithm i.e., the Simple CNN architecture and utilize it for training a Dataset (MNIST Dataset in this case). 
+This repository contains a simple Convolutional Neural Network (CNN) implemented in PyTorch for classifying the MNIST dataset. The MNIST dataset consists of 28x28 grayscale images of handwritten digits (0-9), and the goal is to train a CNN model to correctly classify these digits.
 
 NOTE : If you couldn't understand any terminology given below, please take some time to Google the definition in the context of ML/DL, for a better clarity.
 
@@ -15,3 +15,18 @@ General site for the MNIST database: http://yann.lecun.com/exdb/mnist
 Below is a sample of MNIST Dataset. 
 
 ![MNIST_Sample](https://github.com/pushparajanrahul/SimpleCNN/assets/124497777/0e379fa2-dae6-43e6-8bb8-00fc29a7e99b)
+
+# Prerequisites
+
+Before running the code, make sure you have the following libraries installed:
+
+PyTorch
+torchvision
+matplotlib
+
+You can install these libraries using pip:
+
+pip install torch torchvision matplotlib
+
+
+
