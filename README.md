@@ -46,6 +46,7 @@ Root location: data
 Split: Test
 Data Transformation: ToTensor()
 
+
 # Code Structure
 
 ## 1. CNN Class
