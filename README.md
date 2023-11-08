@@ -26,17 +26,11 @@ matplotlib
 
 You can install these libraries using pip:
 
-pip install torch torchvision matplotlib
+
 
 ```bash
-# To install a specific package
-pip install package-name
-
-# To install multiple packages
-pip install package1 package2
-
-# To upgrade a package
-pip install --upgrade package-name
+pip install torch torchvision matplotlib
+`\```bash
 
 
 
